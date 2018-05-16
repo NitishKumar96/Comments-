@@ -1,0 +1,12 @@
+{
+  "atom-workspace atom-text-editor:not([mini])":
+    {
+    "ctrl-alt-o": "comments:toggle"
+    },
+
+  "atom-text-editor:not([mini])":
+    {
+      "enter": "comments:checkLine"
+
+    }
+}

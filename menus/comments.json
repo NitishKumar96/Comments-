@@ -1,0 +1,31 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle comments",
+        "command": "comments:toggle"
+      }
+
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "comments",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "comments:toggle"
+            },
+            {
+              "label": "comment",
+              "command": "comments:checkLine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
